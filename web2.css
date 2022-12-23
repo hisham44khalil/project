@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+/* nav-bar sstart */
+.nav {
+    width: 100%;
+    height: 900px;
+}
+
+.nav img {
+    width: 100%;
+    height: 630px;
+}
+
+.navbar {
+    padding-right: 90px;
+    padding-left: 160px;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(10px, -600px);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #65676b;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-left img {
+    width: 115px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.items .item {
+    margin: 0 20px;
+}
+
+.items .activ {
+    border-bottom: 2px solid blueviolet;
+}
+
+.nav-right img {
+    width: 80px;
+    height: 25px;
+}
+
+.nav-right a {
+    display: flex;
+    transform: translate(20px, -35px);
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.details .landing {
+    width: 660px;
+    height: 600px;
+    transform: translate(921px, -867px);
+}
+
+.details .mask {
+    width: 240px;
+    height: 390px;
+    transform: translate(440px, -1035px);
+}
+
+.details .clouds {
+    width: 369px;
+    height: 180px;
+    transform: translate(140px, -947px);
+}
+
+.detail .clouds-2 {
+    width: 300px;
+    height: 100px;
+    transform: translate(875px, -745px);
+
+}
+
+.detail .waves {
+    transform: translate(-315px, -1090px);
+    height: 300px;
+}
+
+.detail-1 {
+    display: block;
+    font-size: 36px;
+    padding: 0px 200px;
+    transform: translate(0px, -525px);
+}
+
+.detail-1 h1 {
+    color: #65676b;
+}
+
+.detail-1 p {
+    font-size: 27px;
+    color: #65676b;
+}
+
+.detail-1 a {
+    text-decoration: none;
+}
+
+/* nav-bar end */
+/* body start */
+/* line start */
+
+.line {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    font-size: large;
+    margin: 100px;
+    padding: 60px;
+    position: relative;
+    transform: translate(10px, 975px);
+}
+
+.line-1 {
+    transform: translate(110px, -1302px);
+}
+
+.super img {
+    position: absolute;
+    translate: -20px -1865px;
+    width: 250px;
+}
+
+.line .super .de {
+    translate: 180px -1700px;
+}
+
+.line .de .text1 {
+    font-size: 19px;
+    display: block;
+    translate: -245px 85px;
+    color: rgb(160, 160, 160);
+    line-height: 1.3;
+    width: 347px;
+}
+
+.super h3 {
+    position: absolute;
+    translate: -200px 30px;
+    color: dimgray;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.Real img {
+    position: absolute;
+    translate: 580px -1710px;
+    width: 250px;
+}
+
+
+.Real h3 {
+    position: absolute;
+    translate: 600px -1525px;
+    color: dimgray;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.Real .text2 {
+    font-size: 19px;
+    display: block;
+    width: 395px;
+    translate: 530px -1475px;
+    line-height: 1.4;
+    font-weight: 350;
+    color: rgb(150, 150, 150);
+}
+
+.Discounts img {
+    position: absolute;
+    translate: 1040px -1438px;
+    width: 255px;
+}
+
+.Discounts h3 {
+    font-size: 27px;
+    color: dimgray;
+    font-weight: 100;
+    translate: 1095px -1295px;
+}
+
+.Discounts .text3 {
+    font-size: 20px;
+    display: block;
+    width: 465px;
+    translate: 950px -1295px;
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+.la img {
+    position: absolute;
+    translate: -15px -1600px;
+    width: 450px;
+}
+
+.la h6 {
+    position: absolute;
+    translate: 95px -1465px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.la h2 {
+    position: absolute;
+    color: aliceblue;
+    translate: 95px -1465px;
+    font-size: 56px;
+    font-weight: 100;
+}
+
+/* line end */
+/* secbody start */
+
+.secbody {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+    transform: translate(10px, 1000px);
+}
+
+.liftswiper {
+    transform: translate(-25px, -504px);
+}
+
+.liftswiper img {
+    width: 240px;
+    height: 250px;
+    transform: translate(10px, 70px);
+}
+
+.midswiper {
+    transform: translate(0px, -600px);
+}
+
+.midswiper img {
+    width: 450px;
+    height: 350px;
+    transform: translate(10px, 110px);
+}
+
+.secbody .icon {
+    color: rgb(148, 148, 148);
+    display: flex;
+    justify-content: space-between;
+    transform: translate(10px, 30px);
+    font-size: 20px;
+    width: 590px;
+}
+
+.righttswiper {
+    transform: translate(15px, -495px);
+}
+
+.pmidswiper {
+    transform: translate(150px, 40px);
+    width: 280px;
+}
+
+.pmidswiper1 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: rgba(80, 74, 97, 0.863);
+}
+
+.pmidswiper2 {
+    margin-left: 50px;
+    width: 310px;
+    color: rgba(106, 103, 117, 0.774);
+    font-size: 14px;
+    margin-top: 15px;
+    transform: translate(-30px, 10px);
+    line-height: 1.3;
+}
+
+.pmidswiper3 {
+    margin-left: 50px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    width: 205px;
+    color: rgba(106, 103, 117, 0.774);
+    font-size: medium;
+}
+
+.righttswiper img {
+    width: 240px;
+    height: 250px;
+    transform: translate(10px, 95px);
+}
+
+/* second end */
+/* body end */
+/* footer start */
+
+.footer .left {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.footer .left .img img {
+    width: 739px;
+    height: 485px;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer .left {
+    transform: translate(10px, 648px);
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-53px, 275px);
+}
+
+.down .appstore,
+.down .playstore {
+    width: 146px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px 8px;
+}
+
+.down .appstore p strong,
+.down .playstore p strong {
+    font-size: 14px;
+}
+
+.down .appstore p,
+.down .playstore p {
+    padding: 0 10px;
+    font-size: 9px;
+}
+
+.down .appstore img,
+.down .playstore img {
+    width: 25px;
+    height: 25px;
+}
+
+.media {
+    transform: translate(33px, 280px);
+}
+
+.media img {
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+
+}
+
+.links .link {
+    transform: translate(10px, 300px);
+}
+
+.links .link a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+/* footer end */
